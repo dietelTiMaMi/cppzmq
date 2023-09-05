@@ -27,6 +27,7 @@ jobs:
             drafts: "OFF"
             libzmq: "4.2.0"
             libzmqbuild: "pkgconfig"
+            aptinstall: "gcc-7 g++-7"
           # without draft
           - os: "ubuntu-latest"
             cppstd: "20"
